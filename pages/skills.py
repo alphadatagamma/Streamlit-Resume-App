@@ -25,7 +25,7 @@ def write():
 ## Analytical Skills
 - Statistical Data Analysis
 - Data Wrangling
-- Hyporthesis Testing
+- Hypothesis Testing
 - Machine Learning
 - Natural Language Processing
 - Web Scraping
