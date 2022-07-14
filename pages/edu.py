@@ -1,25 +1,24 @@
 """Edu page shown when the user enters the application"""
 import streamlit as st
+from sidebar import add_sidebar
 
-def write():
-    """Used to write the page in the app.py file"""
-    st.title("Education :books:")
-    st.markdown(
-            """### University of Connecticut School of Business
+add_sidebar()
+"""
+### University of Connecticut School of Business
 **Master of Science in Business Analytics and Project Management | May 2020** | [**UConn**](https://www.business.uconn.edu/)\n
-GPA 4.00/4.00 | Beta Gamma Sigma Honoree 
+GPA 4.00/4.00 | Beta Gamma Sigma Honoree
 
-**Courses ** \n
-- Statistics in Business Analytics \n
-- Big Data Analytics with Hadoop \n
-- Business Decision Modelling \n
-- Predictive Analytics \n
-- Data Mining and Business Analytics \n
-- Introduction to Project Management \n
-- Advanced Business Analytics and Project Management \n
-- Adaptive Business Intelligence \n
-- Project Risk and Cost Management \n
-- Project Leadership and Communication \n
+**Courses**
+- Statistics in Business Analytics
+- Big Data Analytics with Hadoop
+- Business Decision Modelling
+- Predictive Analytics
+- Data Mining and Business Analytics
+- Introduction to Project Management
+- Advanced Business Analytics and Project Management
+- Adaptive Business Intelligence
+- Project Risk and Cost Management
+- Project Leadership and Communication
 
 
 ### Distance Learning
@@ -35,17 +34,12 @@ GPA 4.00/4.00 | Beta Gamma Sigma Honoree
 
 ### Manipal Institute of Technology
 **Bachelors of Technology in Mechanical Engineering | May 2015** | [**MIT**](https://manipal.edu/mit.html)\n
-GPA 8.54/10.00 
+GPA 8.54/10.00
 
-**Courses **\n
-- Essentials of management\n
-- Engineering Economics and Management \n
-- Object Oriented Programming \n
-- Business Communications \n
+**Courses**
+- Essentials of management
+- Engineering Economics and Management
+- Object Oriented Programming
+- Business Communications
 - Operational Research
-
-""",
-            unsafe_allow_html=True,
-        )
-if __name__ == "__main__":
-    main()
+"""
