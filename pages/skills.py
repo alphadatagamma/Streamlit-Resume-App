@@ -1,14 +1,15 @@
 """Skills page shown when the user enters the application"""
 import streamlit as st
+from sidebar import add_sidebar
 
-def write():
-    """Used to write the page in the app.py file"""
-    st.title("Skills :hammer_and_wrench:")
-    st.markdown(
-            """## Languages
+add_sidebar()
+
+st.title("Skills :hammer_and_wrench:")
+"""
+## Languages
 - R
 - Python
-- SQL 
+- SQL
 - VBA
 
 ## Platforms and Libraries
@@ -16,7 +17,7 @@ def write():
 - **MS Office** - Excel, Powerpoint, Project, Word
 - **Python** - Pandas, Numpy, Skicit Learn,Scipy, NLTK, Tensorflow, Keras, Streamlit, Dash, Plotly, Matplotlib, Seaborn, etc.
 - **R** - Shiny, Dplyr
-- **SQL** - MS SQL, PostgreSQL,HIVE, HANA, Teradata 
+- **SQL** - MS SQL, PostgreSQL,HIVE, HANA, Teradata
 - Tableau
 - PowerBI
 - Qlik View
@@ -40,14 +41,7 @@ def write():
 - Lex, Polly
 - Cloudfront
 - IAM
-            
+
 
 _I am a Random Forest in the World of Overfitting_
-
-
-
-""",
-            unsafe_allow_html=True,
-        )
-if __name__ == "__main__":
-    main()
+"""
